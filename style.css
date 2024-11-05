@@ -159,9 +159,23 @@ footer{
     font-size: 16px;
     font-family: lato;
 }
-@media(max-width:500px){
+@media(max-width:570px){
     nav{
         display: none;
     }
+    .section1 img{
+        display: none;
+    }
+    .section1 p{
+       width: 100%; 
+    }
+    .section2{
+        display: flex;
+        flex-direction: column;
+    }
+    .Javascript{
+        display: none;
+    }
+
 }
     
